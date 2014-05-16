@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <link rel="shortcut icon" href="images/np.ico"/>
-    <title>Note--</title>` 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -12,6 +11,7 @@
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <title>Note--</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
   </head>
@@ -41,36 +41,41 @@
       </nav>
       <section>
         <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<a name="welcome-to-NoteM2" class="anchor" href="#welcome-to-NoteM2"><span class="octicon octicon-link"></span></a>Welcome to NoteM2.</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<p>NoteM2 can be considered one of the most ground breaking applications today! Ok, well maybe it's not that big, but NoteM2 aim's to keep notepad's simplistic style while offering tools to multi taskers that can improve every day use. The source is free to use, go ahead and fork my repository and follow these steps: </p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
+<pre><code>$ git clone https://github.com/your_git_name/Note--.git
+$ git remote add upstream https://github.com/Gmercer015/Note--.git
+$ git fetch upstream
+$ git merge upstream/master
 </code></pre>
 
 <p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
 
 <h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<a name="just-one-program" class="anchor" href="#just-one-program"><span class="octicon octicon-link"></span></a>One For All</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<p>Easily jump from files and organize everything in one neat window. Gone are the days of cycling through 3 notepad files looking for your text file containing a key, simply open everything 
+inside NoteM2 and hit tile!</p>
 
 <h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+<a name="how-does-it-work" class="anchor" href="#how-does-it-work"><span class="octicon octicon-link"></span></a>How does it work?</h3>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<p>The main application acts as your canvas, while your files fill that canvas. Nothing leaves the boarders of NoteM2, everything is cleanly packed into the application. If you don't believe me see for yourself:</p>
+<img src="images/Cascade.png" alt="Cascade" align="left" width="280" height="320">
+<img src="images/Tile.png" alt="Tile" align="right" width="280" height="320">
 
+<p>NoteM2 calculates the perfect fit for all open notes, maximizing space.</p>
 <h3>
 <a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<p>You can find more of my work at <a href="https://github.com/Gmercer015" class="user-mention">@Gmercer015</a>, don't forget to follow me for more project updates! NoteM2 was written using C++ and the WIN32 API, yea, I'm not sure what I was thinking either. With the WIN32 API's demise NoteM2 might not see updates until the late 4th quarter of 2014. </p>
 
 <h3>
 <a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+<p>Have you somehow managed to have trouble with NoteM2 and it's 8 button interface? No worries! You can contact me at Gmercer015@gmail.com for any help or suggestions<a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
       </section>
       <footer>
         <p>Project maintained by <a href="https://github.com/Gmercer015">Gmercer015</a></p>
