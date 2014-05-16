@@ -1,7 +1,8 @@
-Note--
+NoteM2
 ======
 
-A small notepad application for windows, offering some small but cool additions to notepad
+Find the website at http://gmercer015.github.io/NoteM2/
+A small notepad application for windows, offering some small but cool additions to notepad.
 
 * Cascade or tile multple windows in one application
 * Save, open and even edit your files! Wow!
