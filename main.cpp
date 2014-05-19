@@ -122,7 +122,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
                                                                     //give status bar 2 parts
 			SendMessage(hStatus, SB_SETPARTS, sizeof(statwidths)/sizeof(int), (LPARAM)statwidths);
                                                                     //set initial text
-			SendMessage(hStatus, SB_SETTEXT, 0, (LPARAM)"NotePad--");
+			SendMessage(hStatus, SB_SETTEXT, 0, (LPARAM)"NoteM2");
 		}
 		break;
 		case WM_SIZE:
@@ -379,7 +379,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 	hwnd = CreateWindowEx(
 		0,
 		szClassName,
-		"NotePad-- v1.0",
+		"NoteM2",
 		WS_OVERLAPPEDWINDOW | WS_CLIPCHILDREN,
 		CW_USEDEFAULT, CW_USEDEFAULT, 480, 640,
 		NULL, NULL, hInstance, NULL);
