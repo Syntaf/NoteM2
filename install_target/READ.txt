@@ -1,0 +1,3 @@
+this is an experimental folder for the installation of NoteM2. Currently
+the application cannot run without a certain MS package being installed,
+and the folder attempts to solve this.
